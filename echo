@@ -1,0 +1,6 @@
+echo "# merge-conflicts" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/imohelloedu/merge-conflicts.git
+git push -u origin master
